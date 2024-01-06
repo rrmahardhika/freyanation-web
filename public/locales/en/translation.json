@@ -1,0 +1,29 @@
+{
+  "navbar": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "freya-gallery": "Freya Gallery",
+    "freyanation-gallery": "Freyanation Gallery",
+    "blog": "Articles",
+    "schedule": "Schedules",
+    "profile": "Profile",
+    "about-freyanation": "About Freyanation"
+  },
+  "visit_link": "Visit Link",
+  "picture_credit": "Picture Credit",
+  "welcome": "Welcome to",
+  "to_fansite": "Fansite of",
+  "btn_browse": "EXPLORE MORE",
+  "fry_jiko": "A choleric girl who loves to imagine, light up your day with my caramel smile. Hello I'm FREYA!",
+  "jikoshoukai": "Freya's Jikoshoukai",
+  "freya_full_profile": "FULL PROFILE",
+  "profile_desc": "English Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "know_freya_more": "Get to Know <span style='color: #F5ADCB'> Freya </span> Better",
+  "follow_freya": "Follow Daily Activity of <span style='color: #F5ADCB'> Freya </span>",
+  "follow_desc": "Follow akun-akun media sosial Freya & JKT48 agar kamu tidak melewatkan update terbaru dari aktivitasnya.",
+  "footer": {
+    "fast-links": "Fast Links",
+    "join-us": "Join Us",
+    "related-web": "Related Website"
+  }
+}

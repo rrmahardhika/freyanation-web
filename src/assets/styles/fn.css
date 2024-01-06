@@ -1,0 +1,265 @@
+.fn-font-title {
+    font-family: 'Lato-Regular';
+}
+
+.fn-navbar-text,
+.fn-navbar-text .nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.unscrolled-nav.navbar .navbar-brand {
+    display: none;
+}
+
+.scrolled-nav.navbar {
+    background-color: white;
+}
+
+.navbar {
+    transition: all 0.2s;
+}
+
+.unscrolled-nav .language-select button {
+    border: solid 1px white;
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.scrolled-nav .language-select button {
+    color: black;
+    border: none;
+    background-color: transparent;
+}
+
+.lang-label {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .language-select button {
+        margin: 20px 0px;
+    }
+
+    .language-select {
+        display: flex;
+        float: right;
+    }
+
+    .scrolled-nav .language-select button {
+        border: solid 1px black;
+        border-radius: 10px;
+    }
+
+    .unscrolled-nav.navbar .collapsing,
+    .unscrolled-nav.navbar .collapse.show {
+        padding-top: 25px;
+        background-color: rgba(0, 0, 0, 0.85);
+        border-radius: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    .scrolled-nav .fn-navbar-nav {
+        height: 67px;
+    }
+
+    .unscrolled-nav .fn-navbar-nav {
+        height: 80px;
+    }
+
+    .scrolled-nav {
+        padding: 0px 10px;
+    }
+
+    .unscrolled-nav {
+        padding: 15px 40px;
+    }
+}
+
+.carousel-image {
+    height: 100vh;
+    transition: transform 5s linear;
+}
+
+
+.carousel-image.slide-1 {
+    background: linear-gradient(to right, rgba(16, 16, 16, 1) 0%, rgba(16, 16, 16, 0.1) 100%), url(../images/pic/carousel-1.webp), lightgray;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-image.slide-2 {
+    background: linear-gradient(to right, rgba(16, 16, 16, 0) 0%, rgba(16, 16, 16, 1) 100%), url(../images/pic/carousel-2.webp), lightgray;
+    background-position: top;
+    background-size: cover;
+}
+
+.carousel-image.slide-3 {
+    background: linear-gradient(to right, rgba(16, 16, 16, 1) 0%, rgba(16, 16, 16, 0.1) 100%), url(../images/pic/carousel-3.webp), lightgray;
+    background-position: top;
+    background-size: cover;
+}
+
+.active.carousel-item .carousel-image {
+    transform: scale(1.1);
+}
+
+.picture-credit {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.13);
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 15px;
+    transition: all 0.5s;
+}
+
+.picture-credit:hover {
+    transform: scale(1.1);
+}
+
+.carousel-panel-1 {
+    position: absolute;
+    left: 0;
+    top: 25vh;
+    color: white;
+    padding: 0px 2vw;
+}
+
+.carousel-panel-2 {
+    position: absolute;
+    right: 0;
+    top: 50vh;
+    color: white;
+    padding: 0px 2vw;
+}
+
+.carousel-panel-3 {
+    position: absolute;
+    left: 0;
+    top: 20vh;
+    color: white;
+    padding: 0px 2vw;
+}
+
+.carousel-title {
+    font-family: Lato-Regular;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.fn-primary-btn.btn {
+    background-color: #A88FC3;
+    color: white;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding: 10px 20px;
+}
+
+.fn-primary-btn.btn:hover,
+.fn-primary-btn.btn:active {
+    background-color: rgba(168, 143, 195, 0.8);
+}
+
+.fn-jikoshokai-text {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 25vh;
+}
+
+.fn-jikoshokai {
+    font-size: 15px;
+    font-weight: 800;
+    color: #A88FC3;
+    font-style: normal;
+    display: flex;
+}
+
+.fn-logo-carousel {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+.carousel-description {
+    font-family: Poppins;
+    font-size: 15px;
+    padding-left: 2px;
+    max-width: 500px;
+}
+
+.fn-section-title-text h1 {
+    position: relative;
+    font-family: Lato;
+    font-weight: 700 !important;
+    color: #F5ADCB;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 1px white;
+    letter-spacing: -1.5px;
+    z-index: 2;
+    margin-left: -50px;
+    margin-bottom: 0px;
+    padding: 7px 0;
+}
+
+.fn-section-title-text {
+    display: flex;
+    align-items: stretch;
+}
+
+.fn-section-title-text>.fn-title-accent {
+    width: 100px;
+    background-color: #A88FC3;
+    z-index: 1;
+    box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.fn-sec-timeline {
+    background: rgba(237, 224, 229, 0.09);
+}
+
+.fn-footer {
+    background-color: #F5ADCB;
+    color: white;
+    font-family: Poppins;
+    font-size: 16pX;
+}
+
+.fn-txt-freyanation-footer h5 {
+    font-family: Lato;
+    font-weight: 700;
+    margin: 0;
+}
+
+.fn-footer-title {
+    font-family: Lato;
+    border-bottom: solid 2px white;
+}
+
+.fn-footer-title h5 {
+    font-weight: 700;
+}
+
+.fn-footer-link a {
+    color: white;
+    text-decoration: none;
+}
+
+.fn-footer-link a:hover {
+    font-weight: 600;
+}

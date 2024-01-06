@@ -1,0 +1,29 @@
+{
+  "navbar": {
+    "home": "Beranda",
+    "gallery": "Galeri",
+    "freya-gallery": "Galeri Freya",
+    "freyanation-gallery": "Galeri Freyanation",
+    "blog": "Artikel",
+    "schedule": "Jadwal",
+    "profile": "Profil",
+    "about-freyanation": "Tentang Freyanation"
+  },
+  "visit_link": "Kunjungi Profil",
+  "picture_credit": "Kredit Foto",
+  "welcome": "Selamat Datang",
+  "to_fansite": "di Fansite",
+  "btn_browse": "TELUSURI LEBIH LANJUT",
+  "fry_jiko": "Gadis koleris yang suka berimajinasi, terangi harimu dengan senyum karamelku. Halo aku FREYA!",
+  "jikoshoukai": "Jikoshoukai Freya",
+  "freya_full_profile": "PROFIL LENGKAP FREYA",
+  "profile_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "know_freya_more": "Kenali <span style='color: #F5ADCB'> Freya </span> Lebih Jauh",
+  "follow_freya": "Ikuti Keseharian <span style='color: #F5ADCB'> Freya </span>",
+  "follow_desc": "Follow akun-akun media sosial Freya & JKT48 agar kamu tidak melewatkan update terbaru dari aktivitasnya.",
+  "footer": {
+    "fast-links": "Tautan Cepat",
+    "join-us": "Gabung Bersama Kami",
+    "related-web": "Website Terkait"
+  }
+}
