@@ -11,13 +11,28 @@ import { Dropdown } from "react-bootstrap";
 
 const NavBar = () => {
   const { i18n, t } = useTranslation();
-  const [language, setLanguage] = useState("id");
+  const [language, setLanguage] = useState(null);
 
   function changeLanguage(e) {
     const code = e.value;
     setLanguage(code);
+    localStorage.setItem("lang", JSON.stringify(e));
     if (i18n.language !== code) {
       i18n.changeLanguage(code);
+    }
+  }
+
+  function initLanguage() {
+    const lang = localStorage.getItem("lang");
+    if (lang) {
+      changeLanguage(JSON.parse(lang));
+    } else {
+      changeLanguage({
+        value: "id",
+        text: "Bahasa Indonesia",
+        icon: "idn-logo.png",
+        textLabel: "IDN",
+      });
     }
   }
 
@@ -52,6 +67,19 @@ const NavBar = () => {
     );
     return langLabelElement;
   };
+
+  const isAutoScrolled = () => {
+    const pathNames = [
+      "/",
+      "/galeri-freya",
+      "/galeri-freyanation",
+      "/profil",
+      "/freyanation",
+      "/jadwal",
+    ];
+    return !pathNames.includes(window.location.pathname);
+  };
+
   const menus = [
     {
       title: t("navbar.home"),
@@ -85,10 +113,17 @@ const NavBar = () => {
   const location = useLocation();
   useEffect(() => {
     window.onscroll = () => {
-      if (window.scrollY >= 120) setScrolled(true);
-      else setScrolled(false);
+      if (isAutoScrolled()) setScrolled(true);
+      else {
+        if (window.scrollY >= 120) setScrolled(true);
+        else setScrolled(false);
+      }
     };
+
+    if (isAutoScrolled()) setScrolled(true);
+    initLanguage();
   }, []);
+
   return (
     <Navbar
       fixed="top"
@@ -166,24 +201,26 @@ const NavBar = () => {
             })}
           </Nav>
           <Nav class="language-select">
-            <Dropdown activeKey={language} className="px-3 mx-1">
-              <Dropdown.Toggle id="lang-dropdown" as="button">
-                {renderLangLabel()}
-              </Dropdown.Toggle>
-              <Dropdown.Menu align={"end"}>
-                {langOptions.map((lang) => {
-                  return (
-                    <Dropdown.Item
-                      key={lang.value}
-                      onClick={() => changeLanguage(lang)}
-                      className={language == lang.value ? "active" : ""}
-                    >
-                      {lang.text}
-                    </Dropdown.Item>
-                  );
-                })}
-              </Dropdown.Menu>
-            </Dropdown>
+            {language && (
+              <Dropdown activeKey={language} className="px-3 mx-1">
+                <Dropdown.Toggle id="lang-dropdown" as="button">
+                  {renderLangLabel()}
+                </Dropdown.Toggle>
+                <Dropdown.Menu align={"end"}>
+                  {langOptions.map((lang) => {
+                    return (
+                      <Dropdown.Item
+                        key={lang.value}
+                        onClick={() => changeLanguage(lang)}
+                        className={language == lang.value ? "active" : ""}
+                      >
+                        {lang.text}
+                      </Dropdown.Item>
+                    );
+                  })}
+                </Dropdown.Menu>
+              </Dropdown>
+            )}
           </Nav>
         </Navbar.Collapse>
       </Container>

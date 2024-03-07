@@ -28,44 +28,49 @@ const Menubar = () => {
     },
   ];
   return (
-    <Container fluid className="fn-footer py-3 px-4">
-      <Row className="justify-content-center">
-        <Col xs={12} md={6} lg={3} className="py-3">
-          <div className="d-flex align-items-center">
-            <img
-              alt=""
-              src={require("../assets/images/icon/fn-logo.png")}
-              width="30"
-            />
-            <div className="ms-3 fn-txt-freyanation-footer">
-              <h5>FREYANATION</h5>
-            </div>
-          </div>
-          <div className="mt-2">
-            Deskripsi mengenai fansite ini. Lorem Ipsum dolor sit amet. Lorem
-            ipsum dolor sit amet.
-          </div>
-        </Col>
-        <Col xs={12} md={6} lg={3} className="py-3">
-          <div className="fn-footer-title mb-2">
-            <h5>{t("footer.fast-links")}</h5>
-          </div>
-          {menus.map((menu) => {
-            return (
-              <div className="py-1 fn-footer-link">
-                <a href={menu.link}>{menu.title} </a>
+    <>
+      <Container fluid className="fn-footer py-3 px-4">
+        <Row className="justify-content-center">
+          <Col xs={12} md={6} lg={3} className="py-3">
+            <div className="d-flex align-items-center">
+              <img
+                alt=""
+                src={require("../assets/images/icon/fn-logo.png")}
+                width="30"
+              />
+              <div className="ms-3 fn-txt-freyanation-footer">
+                <h5>FREYANATION</h5>
               </div>
-            );
-          })}
-        </Col>
-        <Col xs={12} md={6} lg={3} className="py-3">
-          <div className="fn-footer-title mb-2">
-            <h5>{t("footer.join-us")}</h5>
-          </div>
-          <div className="py-1 fn-footer-link">Email</div>
-        </Col>
-      </Row>
-    </Container>
+            </div>
+            <div
+              className="mt-2"
+              dangerouslySetInnerHTML={{ __html: t("footer_desc") }}
+            ></div>
+          </Col>
+          <Col xs={12} md={6} lg={3} className="py-3">
+            <div className="fn-footer-title mb-2">
+              <h5>{t("footer.fast-links")}</h5>
+            </div>
+            {menus.map((menu) => {
+              return (
+                <div className="py-1 fn-footer-link">
+                  <a href={menu.link}>{menu.title} </a>
+                </div>
+              );
+            })}
+          </Col>
+          <Col xs={12} md={6} lg={3} className="py-3">
+            <div className="fn-footer-title mb-2">
+              <h5>{t("footer.join-us")}</h5>
+            </div>
+            <div className="py-1 fn-footer-link">Email</div>
+          </Col>
+        </Row>
+      </Container>
+      <Container className="text-center fn-copyright-text my-3">
+        2024 - All Right Reserved. Proudly Presented by Freyanation
+      </Container>
+    </>
   );
 };
 

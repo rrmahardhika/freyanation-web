@@ -1,5 +1,5 @@
 .scrolled-nav .nav-link.active,
-.fn-navbar-text.active.nav-item,
+.scrolled-nav .fn-navbar-text.active.nav-item,
 .dropdown-item:active,
 .dropdown-item:hover,
 .language-select .active.dropdown-item {
@@ -7,7 +7,9 @@
     color: white !important;
 }
 
-.unscrolled-nav .nav-link.active {
+.unscrolled-nav .nav-link.active,
+.unscrolled-nav .active.nav-item.dropdown,
+.unscrolled-nav .fn-navbar-text.active.nav-item .dropdown-toggle.nav-link {
     color: #F5ADCB !important;
 }
 

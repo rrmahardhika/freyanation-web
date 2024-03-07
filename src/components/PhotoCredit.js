@@ -10,10 +10,13 @@ const Credit = (props) => {
   };
   return (
     <a href={props.link} title={t("visit_link")} target="_blank">
-      <div style={style} className="picture-credit">
-        {t("picture_credit")} <br />{" "}
+      <div
+        style={style}
+        className={`picture-credit ${props.small ? "small" : ""}`}
+      >
+        {t("picture_credit")} <br />
         <span style={{ fontWeight: 600 }}>{props.creditName}</span>
-      </div>{" "}
+      </div>
     </a>
   );
 };

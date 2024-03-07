@@ -14,10 +14,12 @@
   "welcome": "Selamat Datang",
   "to_fansite": "di Fansite",
   "btn_browse": "TELUSURI LEBIH LANJUT",
+  "btn_more": "LIHAT SELENGKAPNYA",
+  "btn_more_general": "LIHAT SELENGKAPNYA",
   "fry_jiko": "Gadis koleris yang suka berimajinasi, terangi harimu dengan senyum karamelku. Halo aku FREYA!",
   "jikoshoukai": "Jikoshoukai Freya",
   "freya_full_profile": "PROFIL LENGKAP FREYA",
-  "profile_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "profile_desc": "<p>Raden Rara Freyanashifa Jayawardana atau kerap dipanggil <span style='font-weight:600'>Freya</span> adalah seorang member JKT48 generasi ke-7 yang lahir di Tangerang pada 13 Februari 2006.</p><p>Freya diperkenalkan pertama kali sebagai member JKT48 pada event <i>\"Everyday, Kachuusha/UZA\"</i> Handshake Festival yang berlangsung pada 29 September 2018. </p>",
   "know_freya_more": "Kenali <span style='color: #F5ADCB'> Freya </span> Lebih Jauh",
   "follow_freya": "Ikuti Keseharian <span style='color: #F5ADCB'> Freya </span>",
   "follow_desc": "Follow akun-akun media sosial Freya & JKT48 agar kamu tidak melewatkan update terbaru dari aktivitasnya.",
@@ -25,5 +27,28 @@
     "fast-links": "Tautan Cepat",
     "join-us": "Gabung Bersama Kami",
     "related-web": "Website Terkait"
-  }
+  },
+  "month": {
+    "01": "JAN",
+    "02": "FEB",
+    "03": "MAR",
+    "04": "APR",
+    "05": "MEI",
+    "06": "JUN",
+    "07": "JUL",
+    "08": "AGU",
+    "09": "SEP",
+    "10": "OKT",
+    "11": "NOV",
+    "12": "DES"
+  },
+  "socmed_activity": "Aktivitas Media Sosial",
+  "show_recap": "Rekap Pertunjukkan",
+  "intro_video": "Video Perkenalan",
+  "new_article": "Artikel Terbaru",
+  "footer_desc": "Freyanation ID atau sering disebut Freyanation/FN adalah fanbase dari Freya Jayawardana. <br /> Didirikan pada 30 September 2018, tepat satu hari setelah Freya diperkenalkan sebagai member JKT48.",
+  "page_not_found": "Halaman Tidak Tersedia atau Dalam Masa Pengerjaan",
+  "page_not_found_desc": "Halaman yang kamu tuju tidak tersedia atau dalam masa pengerjaan. <br/> Mohon maaf atas ketidanyamanannya. Kami berkomitmen untuk tetap menghadirkan informasi terupdate dari Freya.",
+  "btn_back_to_main": "KEMBALI KE HALAMAN UTAMA",
+  "full_info": "Info Selengkapnya"
 }
