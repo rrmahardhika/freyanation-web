@@ -1,0 +1,90 @@
+{
+  "navbar": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "freya-gallery": "Freya Gallery",
+    "freyanation-gallery": "Freyanation Gallery",
+    "blog": "Articles",
+    "schedule": "Schedules",
+    "profile": "Profile",
+    "about-freyanation": "About Freyanation"
+  },
+  "visit_link": "Visit Link",
+  "picture_credit": "Picture Credit",
+  "welcome": "Welcome to",
+  "to_fansite": "Fansite of",
+  "btn_browse": "EXPLORE MORE",
+  "btn_more": "FULL SCHEDULE",
+  "btn_more_general": "EXPLORE MORE",
+  "fry_jiko": "A choleric girl who loves to imagine, light up your day with my caramel smile. Hello I'm FREYA!",
+  "jikoshoukai": "Freya's Jikoshoukai",
+  "freya_full_profile": "FULL PROFILE",
+  "profile_desc": "<p>Raden Rara Freyanashifa Jayawardana or often called <span style='font-weight:600'>Freya</span> is a 7th generation JKT48 member who was born in Tangerang on February 13 2006.</p> <p>Freya was first introduced as a member of JKT48 at the <i>\"Everyday, Kachuusha/UZA\"</i> Handshake Festival which took place on September 29 2018.</p>",
+  "know_freya_more": "Get to Know <span style='color: #F5ADCB'> Freya </span> Better",
+  "follow_freya": "Follow Daily Activity of <span style='color: #F5ADCB'> Freya </span>",
+  "follow_desc": "Follow Freya & JKT48's social media accounts so you don't miss the latest updates on their activities.",
+  "footer": {
+    "fast-links": "Fast Links",
+    "join-us": "Join Us",
+    "related-web": "Related Website"
+  },
+  "month": {
+    "01": "JAN",
+    "02": "FEB",
+    "03": "MAR",
+    "04": "APR",
+    "05": "May",
+    "06": "JUN",
+    "07": "JUL",
+    "08": "AUG",
+    "09": "SEP",
+    "10": "OCT",
+    "11": "NOP",
+    "12": "DEC"
+  },
+  "socmed_activity": "Social Media Activity",
+  "show_recap": "Show Recap",
+  "intro_video": "Introduction Video",
+  "new_article": "New Article",
+  "footer_desc": "Freyanation ID or often called Freyanation/FN is the fanbase of Freya Jayawardana. <br /> Founded on September 30th 2018, exactly one day after Freya was introduced as a member of JKT48.",
+  "page_not_found": "Page Unavailable or Under Construction",
+  "page_not_found_desc": "The page you are looking for is not available or under construction. <br/> Sorry for the inconvenience. We are committed to continuing to provide the most updated information from Freya.",
+  "btn_back_to_main": "BACK TO MAIN PAGE",
+  "full_info": "Full Information",
+  "profile_title": "PROFILE OF <span style='color: #F5ADCB'>FREYA </span>",
+  "profile_subtitle": "Get to know closer with our favorite idol, <br/> Freya Jayawardana",
+  "profile_head": "Full Profile of Freya Jayawardana",
+  "profile_detail": {
+    "title": {
+      "full_name": "Full Name",
+      "born": "Birth",
+      "generation": "Generation",
+      "active_year": "Active Year in JKT48"
+    },
+    "value": {
+      "born": "Februari 13rd 2006 (17 Years Old) <br> Tangerang City, Banten, <br>Indonesia",
+      "generation": "7th",
+      "active_year": "2018 - Now"
+    }
+  },
+  "socials": [
+    {
+      "name": "GithubEng",
+      "url": "#"
+    },
+    {
+      "name": "Twitter",
+      "url": "#"
+    },
+    {
+      "name": "Linkedin",
+      "url": "#"
+    },
+    {
+      "name": "Instagram",
+      "url": "#"
+    }
+  ],
+  "freya_schedule": "FREYA'S <span style='color: #F5ADCB'>SCHEDULE </span>",
+  "freya_schedule_subtitle": "Don't miss the most updated schedule of Freya Jayawardana including theater shows, <br /> off-air events, video calls and many more!"
+}

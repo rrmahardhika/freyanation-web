@@ -1,0 +1,144 @@
+{
+  "navbar": {
+    "home": "Beranda",
+    "gallery": "Galeri",
+    "freya-gallery": "Galeri Freya",
+    "freyanation-gallery": "Galeri Freyanation",
+    "blog": "Artikel",
+    "schedule": "Jadwal",
+    "profile": "Profil",
+    "about-freyanation": "Tentang Freyanation"
+  },
+  "visit_link": "Kunjungi Profil",
+  "picture_credit": "Kredit Foto",
+  "welcome": "Selamat Datang",
+  "to_fansite": "di Fansite",
+  "btn_browse": "TELUSURI LEBIH LANJUT",
+  "btn_more": "LIHAT SELENGKAPNYA",
+  "btn_more_general": "LIHAT SELENGKAPNYA",
+  "fry_jiko": "Gadis koleris yang suka berimajinasi, terangi harimu dengan senyum karamelku. Halo aku FREYA!",
+  "jikoshoukai": "Jikoshoukai Freya",
+  "freya_full_profile": "PROFIL LENGKAP FREYA",
+  "profile_desc": "<p>Raden Rara Freyanashifa Jayawardana atau kerap dipanggil <span style='font-weight:600'>Freya</span> adalah seorang member JKT48 generasi ke-7 yang lahir di Tangerang pada 13 Februari 2006.</p><p>Freya diperkenalkan pertama kali sebagai member JKT48 pada event <i>\"Everyday, Kachuusha/UZA\"</i> Handshake Festival yang berlangsung pada 29 September 2018. </p>",
+  "know_freya_more": "Kenali <span style='color: #F5ADCB'> Freya </span> Lebih Jauh",
+  "follow_freya": "Ikuti Keseharian <span style='color: #F5ADCB'> Freya </span>",
+  "follow_desc": "Follow akun-akun media sosial Freya & JKT48 agar kamu tidak melewatkan update terbaru dari aktivitasnya.",
+  "footer": {
+    "fast-links": "Tautan Cepat",
+    "join-us": "Gabung Bersama Kami",
+    "related-web": "Website Terkait"
+  },
+  "month": {
+    "01": "JAN",
+    "02": "FEB",
+    "03": "MAR",
+    "04": "APR",
+    "05": "MEI",
+    "06": "JUN",
+    "07": "JUL",
+    "08": "AGU",
+    "09": "SEP",
+    "10": "OKT",
+    "11": "NOV",
+    "12": "DES"
+  },
+  "socmed_activity": "Aktivitas Media Sosial",
+  "show_recap": "Rekap Pertunjukkan",
+  "intro_video": "Video Perkenalan",
+  "new_article": "Artikel Terbaru",
+  "footer_desc": "Freyanation ID atau sering disebut Freyanation/FN adalah fanbase dari Freya Jayawardana. <br /> Didirikan pada 30 September 2018, tepat satu hari setelah Freya diperkenalkan sebagai member JKT48.",
+  "page_not_found": "Halaman Tidak Tersedia atau Dalam Masa Pengerjaan",
+  "page_not_found_desc": "Halaman yang kamu tuju tidak tersedia atau dalam masa pengerjaan. <br/> Mohon maaf atas ketidanyamanannya. Kami berkomitmen untuk tetap menghadirkan informasi terupdate dari Freya.",
+  "btn_back_to_main": "KEMBALI KE HALAMAN UTAMA",
+  "full_info": "Info Selengkapnya",
+  "profile_title": "PROFIL <span style='color: #F5ADCB'>FREYA </span>",
+  "profile_subtitle": "Mengenal lebih dekat dengan idola kesayangan kita semua, <br/> Freya Jayawardana",
+  "profile_head": "Profil Lengkap Freya Jayawardana",
+  "profile_detail": {
+    "title": {
+      "full_name": "Nama Lengkap",
+      "born": "Lahir",
+      "generation": "Generasi",
+      "active_year": "Tahun Aktif di JKT48"
+    },
+    "value": {
+      "born": "13 Februari 2006 (umur 17) <br> Kota Tangerang, Banten, <br>Indonesia",
+      "generation": "7",
+      "active_year": "2018 - Sekarang"
+    }
+  },
+  "milestone": {
+    "1": {
+      "date": "29 September 2018",
+      "title": "Awal Bergabung",
+      "desc": "Freya bergabung dengan JKT48"
+    },
+    "2": {
+      "date": "23 Maret 2019",
+      "title": "Shonichi: Pajama Drive",
+      "desc": "Pertama kali tampil di Theater JKT48 membawakan setlist Pajama Drive bersama Academy Class A"
+    },
+    "3": {
+      "date": "7 September 2019",
+      "title": "Shonichi: Idol no Yoake",
+      "desc": "Pertama kali membawakan setlist Idol no Yoake - Fajar Sang Idola bersama Team J"
+    },
+    "4": {
+      "date": "21 September 2019",
+      "title": "Shonichi: Seifuku no Me",
+      "desc": "Pertama kali membawakan setlist Seifuku no Me - Tunas di Balik Seragam bersama Team T"
+    },
+    "5": {
+      "date": "28 Februari 2020",
+      "title": "Shonichi: Boku no Taiyou",
+      "desc": "Pertama kali membawakan setlist Boku no Taiyou - Matahari Milikku bersama Academy Class A"
+    },
+    "6": {
+      "date": "2 Juni 2020",
+      "title": "Promosi Member Reguler",
+      "desc": "Dipromosikan menjadi member reguler JKT48 dan tergabung ke dalam Team T"
+    },
+    "7": {
+      "date": "22 Agustus 2020",
+      "title": "Shonichi: Fly! Team T",
+      "desc": "Pertama kali membawakan setlist Fly! Team T bersama dengan Team T"
+    },
+    "8": {
+      "date": "26 Desember 2020",
+      "title": "100 Show Theater",
+      "desc": "Mencapai 100 kali penampilan di JKT Theater"
+    },
+    "9": {
+      "date": "20 Maret 2021",
+      "title": "Shonichi: Renai Kinshi Jourei",
+      "desc": "Pertama kali membawakan setlist Renai Kinshi Jourei - Aturan Anti Cinta bersama JKT48 ONE"
+    },
+    "10": {
+      "date": "21 Maret 2021",
+      "title": "Shonichi: Seishun Girls",
+      "desc": "Pertama kali membawakan setlist Seishun Girls - Gadis-Gadis Remaja bersama JKT48 ONE"
+    },
+    "11": {
+      "date": "12 Maret 2022",
+      "title": "Shonichi: Banzai JKT48",
+      "desc": "Pertama kali membawakan setlist Banzai JKT48 bersama JKT48 ONE"
+    },
+    "12": {
+      "date": "4 Juni 2022",
+      "title": "200 Show Theater",
+      "desc": "Mencapai 200 kali penampilan di JKT48 Theater"
+    },
+    "13": {
+      "date": "15 Januari 2023",
+      "title": "Shonichi: Ramune no Nomikata",
+      "desc": "Pertama kali membawakan setlist Ramune no Nomikata - Cara Meminum Ramune bersama JKT48 ONE"
+    },
+    "14": {
+      "date": "7 Januari 2024",
+      "title": "300 Show Theater",
+      "desc": "Mencapai 300 kali penampilan di JKT48 Theater"
+    }
+  },
+  "freya_schedule": "JADWAL <span style='color: #F5ADCB'>FREYA </span>",
+  "freya_schedule_subtitle": "Jangan lewatkan jadwal terbaru Freya Jayawardana mulai dari show theater, <br /> event off-air, video call dan yang lainnya!"
+}
