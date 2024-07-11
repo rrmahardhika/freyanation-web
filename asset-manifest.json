@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/freyanation-web/static/css/main.16aabc9e.css",
-    "main.js": "/freyanation-web/static/js/main.7ab79726.js",
+    "main.js": "/freyanation-web/static/js/main.f940dee9.js",
     "static/media/carousel-1.webp": "/freyanation-web/static/media/carousel-1.5fc8a80d339cdc0ac026.webp",
     "static/media/freyanation-bg.webp": "/freyanation-web/static/media/freyanation-bg.a3ffc1457038fc8a02d3.webp",
     "static/media/gallery-freya-bg.webp": "/freyanation-web/static/media/gallery-freya-bg.a3ffc1457038fc8a02d3.webp",
@@ -41,10 +41,10 @@
     "static/media/event.webp": "/freyanation-web/static/media/event.f564e585baa1844c1f44.webp",
     "static/media/getFetch.cjs": "/freyanation-web/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.16aabc9e.css.map": "/freyanation-web/static/css/main.16aabc9e.css.map",
-    "main.7ab79726.js.map": "/freyanation-web/static/js/main.7ab79726.js.map"
+    "main.f940dee9.js.map": "/freyanation-web/static/js/main.f940dee9.js.map"
   },
   "entrypoints": [
     "static/css/main.16aabc9e.css",
-    "static/js/main.7ab79726.js"
+    "static/js/main.f940dee9.js"
   ]
 }
