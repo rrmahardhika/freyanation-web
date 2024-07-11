@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { useTranslation } from "react-i18next";
 import { Dropdown } from "react-bootstrap";
+import config from "../config";
 
 const NavBar = () => {
   const { i18n, t } = useTranslation();
@@ -165,7 +166,7 @@ const NavBar = () => {
               let NavbarElement = (
                 <Nav.Link
                   className={`px-3 mx-1 fn-navbar-text`}
-                  href={menu.link}
+                  href={`${config.basename}/#${menu.link}`}
                   key={menu.link}
                 >
                   {menu.title.toUpperCase()}
@@ -191,7 +192,7 @@ const NavBar = () => {
                         return (
                           <NavDropdown.Item
                             className="py-2"
-                            href={item.link}
+                            href={`${config.basename}/#${item.link}`}
                             key={item.link}
                           >
                             {item.title}

@@ -8,7 +8,9 @@ i18n
   .init({
     lng: "id",
     fallbackLng: "id",
-
+    backend: {
+      loadPath: `${process.env.PUBLIC_URL}/locales/{{lng}}/{{ns}}.json`,
+    },
     interpolation: {
       escapeValue: false,
     },
