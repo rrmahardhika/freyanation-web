@@ -50,5 +50,41 @@
   "page_not_found": "Page Unavailable or Under Construction",
   "page_not_found_desc": "The page you are looking for is not available or under construction. <br/> Sorry for the inconvenience. We are committed to continuing to provide the most updated information from Freya.",
   "btn_back_to_main": "BACK TO MAIN PAGE",
-  "full_info": "Full Information"
+  "full_info": "Full Information",
+  "profile_title": "PROFILE OF <span style='color: #F5ADCB'>FREYA </span>",
+  "profile_subtitle": "Get to know closer with our favorite idol, <br/> Freya Jayawardana",
+  "profile_head": "Full Profile of Freya Jayawardana",
+  "profile_detail": {
+    "title": {
+      "full_name": "Full Name",
+      "born": "Birth",
+      "generation": "Generation",
+      "active_year": "Active Year in JKT48"
+    },
+    "value": {
+      "born": "Februari 13rd 2006 (17 Years Old) <br> Tangerang City, Banten, <br>Indonesia",
+      "generation": "7th",
+      "active_year": "2018 - Now"
+    }
+  },
+  "socials": [
+    {
+      "name": "GithubEng",
+      "url": "#"
+    },
+    {
+      "name": "Twitter",
+      "url": "#"
+    },
+    {
+      "name": "Linkedin",
+      "url": "#"
+    },
+    {
+      "name": "Instagram",
+      "url": "#"
+    }
+  ],
+  "freya_schedule": "FREYA'S <span style='color: #F5ADCB'>SCHEDULE </span>",
+  "freya_schedule_subtitle": "Don't miss the most updated schedule of Freya Jayawardana including theater shows, <br /> off-air events, video calls and many more!"
 }

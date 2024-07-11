@@ -15,6 +15,8 @@ import FreyanationGallery from "./pages/FreyanationGallery";
 import Profile from "./pages/Profile";
 import Schedule from "./pages/Schedule";
 import Freyanation from "./pages/Freyanation";
+import DetailGallery from "./pages/GalleryDetail";
+import Article from "./pages/Article";
 
 export default function App() {
   return (
@@ -25,8 +27,10 @@ export default function App() {
           <Route path="/galeri-freya" element={<FreyaGallery />} />
           <Route path="/galeri-freyanation" element={<FreyanationGallery />} />
           <Route path="/profil" element={<Profile />} />
+          <Route path="/blog" element={<Article />} />
           <Route path="/freyanation" element={<Freyanation />} />
           <Route path="/jadwal" element={<Schedule />} />
+          <Route path="/detail-galery/:id" element={<DetailGallery />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

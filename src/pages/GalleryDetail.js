@@ -3,12 +3,11 @@ import React, { useState, useEffect, useRef } from "react";
 import { useWindowSize } from "@uidotdev/usehooks";
 import Credit from "../components/PhotoCredit";
 import { Container, Row, Col } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
 
-const FreyaGallery = () => {
+const DetailGallery = () => {
   const size = useWindowSize();
   const { t } = useTranslation();
-  const navigate = useNavigate();
+
   return (
     <>
       <div className="fn-gallery-background fn-header-page">
@@ -34,7 +33,10 @@ const FreyaGallery = () => {
       <div className={`fn-page-content-bg ${size.width < 500 ? "p-2" : "p-4"}`}>
         <div className="fn-page-content p-4">
           <div className="fn-content-title mb-3">
-            <h3>Galeri Freya</h3>
+            <h3>
+              Galeri Album :{" "}
+              <span style={{ color: "#F5ADCB" }}>Instastory</span>
+            </h3>
             <div className="fn-line-title"></div>
           </div>
           <Container fluid className="p-0 m-0">
@@ -48,21 +50,12 @@ const FreyaGallery = () => {
                     md={3}
                     className={size.width <= 500 ? "p-2" : "pe-3"}
                   >
-                    <div
-                      className="fn-gallery-thumbnail"
-                      onClick={() => {
-                        navigate("/detail-galery/1");
-                      }}
-                    >
+                    <div className="fn-gallery-thumbnail">
                       <img
                         alt=""
                         src={require(`../assets/images/pic/schedule-page-bg.webp`)}
                         className="fn-gallery-image-title"
                       />
-                      <div className="fn-gallery-image-panel p-2">
-                        <div className="fn-gip-title">Instastory</div>
-                        <div className="fn-gip-subtitle">240 Photos</div>
-                      </div>
                     </div>
                   </Col>
                 );
@@ -75,4 +68,4 @@ const FreyaGallery = () => {
   );
 };
 
-export default FreyaGallery;
+export default DetailGallery;

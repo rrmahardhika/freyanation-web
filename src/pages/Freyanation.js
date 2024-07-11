@@ -9,7 +9,7 @@ const Freyanation = () => {
 
   return (
     <>
-      <div className="fn-gallery-background fn-header-page">
+      <div className="fn-freyanation-background fn-header-page">
         <div className="fn-overlay-black">
           <Credit
             creditName="amortentia"
@@ -19,12 +19,10 @@ const Freyanation = () => {
           />
           <div className="fn-page-description">
             <div className="fn-page-text-title">
-              GALERI <span style={{ color: "#F5ADCB" }}>FREYA </span>
+              TENTANG <span style={{ color: "#F5ADCB" }}>FREYANATION </span>
             </div>
             <div className="fn-page-text-subtitle">
-              Potret keseharian Freya melalui berbagai aktivitas baik di media
-              sosial, <br /> show theater hingga event - event offair maupun
-              onair
+              Deskripsi mengenai Fanbase Freyanation
             </div>
           </div>
         </div>
@@ -32,7 +30,7 @@ const Freyanation = () => {
       <div className={`fn-page-content-bg ${size.width < 500 ? "p-2" : "p-4"}`}>
         <div className="fn-page-content p-4">
           <div className="fn-content-title mb-3">
-            <h3>Galeri Freya</h3>
+            <h3>Tentang Fanbase Freyanation</h3>
             <div className="fn-line-title"></div>
           </div>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum

@@ -179,68 +179,7 @@ const Home = () => {
           "https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/05/05/FotoJet-2023-05-05T124444832-2504022252.jpg",
       },
     ]);
-    setMilestones([
-      {
-        date: "10 Februari 2024",
-        title: "Promosi Tim",
-        desc: "Freya dipromosikan ke dalam tim T, lorem ipsum dolor sit amet",
-      },
-      {
-        date: "10 Februari 2024",
-        title: "Promosi Tim",
-        desc: "Freya dipromosikan ke dalam tim T, lorem ipsum dolor sit amet",
-      },
-      {
-        date: "10 Februari 2024",
-        title: "Promosi Tim",
-        desc: "Freya dipromosikan ke dalam tim T, lorem ipsum dolor sit amet",
-      },
-      {
-        date: "10 Februari 2024",
-        title: "Promosi Tim",
-        desc: "Freya dipromosikan ke dalam tim T, lorem ipsum dolor sit amet Freya dipromosikan ke dalam tim T, lorem ipsum dolor sit amet Freya dipromosikan ke dalam tim T, lorem ipsum dolor sit amet",
-      },
-      {
-        date: "10 Februari 2024",
-        title: "Promosi Tim",
-        desc: "Freya dipromosikan ke dalam tim T, lorem ipsum dolor sit amet",
-      },
-      {
-        date: "10 Februari 2024",
-        title: "Promosi Tim",
-        desc: "Freya dipromosikan ke dalam tim T, lorem ipsum dolor sit amet",
-      },
-      {
-        date: "10 Februari 2024",
-        title: "Promosi Tim",
-        desc: "Freya dipromosikan ke dalam tim T, lorem ipsum dolor sit amet",
-      },
-      {
-        date: "10 Februari 2024",
-        title: "Promosi Tim",
-        desc: "Freya dipromosikan ke dalam tim T, lorem ipsum dolor sit amet",
-      },
-      {
-        date: "10 Februari 2024",
-        title: "Promosi Tim",
-        desc: "Freya dipromosikan ke dalam tim T, lorem ipsum dolor sit amet",
-      },
-      {
-        date: "10 Februari 2024",
-        title: "Promosi Tim",
-        desc: "Freya dipromosikan ke dalam tim T, lorem ipsum dolor sit amet",
-      },
-      {
-        date: "10 Februari 2024",
-        title: "Promosi Tim",
-        desc: "Freya dipromosikan ke dalam tim T, lorem ipsum dolor sit amet Freya dipromosikan ke dalam tim T, lorem ipsum dolor sit amet Freya dipromosikan ke dalam tim T, lorem ipsum dolor sit amet",
-      },
-      {
-        date: "10 Februari 2024",
-        title: "Promosi Tim",
-        desc: "Freya dipromosikan ke dalam tim T, lorem ipsum dolor sit amet",
-      },
-    ]);
+    getMilestone();
   }, []);
 
   function renderTodaySchedules() {
@@ -264,6 +203,19 @@ const Home = () => {
         })}
       </Row>
     );
+  }
+
+  function getMilestone() {
+    const totalMilestone = 14;
+    let milestone = [];
+    for (let i = 1; i <= totalMilestone; i++) {
+      milestone.push({
+        date: t(`milestone.${i}.date`),
+        title: t(`milestone.${i}.title`),
+        desc: t(`milestone.${i}.desc`),
+      });
+    }
+    setMilestones(milestone);
   }
 
   function renderUpcomingSchedules() {
@@ -441,10 +393,10 @@ const Home = () => {
           </div>
 
           <Credit
-            creditName="?"
+            creditName="Andhi"
             positionTop="10vw"
             positionRight="0px"
-            link="https://x.com/amortentia0213/"
+            link="https://twitter.com/Andhi_48/status/1713617938832630089/photo/1/"
           />
           <div class="fn-logo-carousel px-4 py-3">
             {" "}

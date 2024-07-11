@@ -48,66 +48,125 @@ const ScheduleTile = (props) => {
     }
   }
   return (
-    <div className="d-flex schedule-tile my-2">
-      <div className="schedule-tile-date py-2">
-        <div style={{ fontSize: "40px", lineHeight: 1.1, fontWeight: 400 }}>
-          {props.schedule.date.substr(-2)}
-        </div>
-        <div style={{ fontSize: "20px", fontWeight: 600, marginTop: "-5px" }}>
-          {t(`month.${props.schedule.date.substr(5, 2)}`)}
-        </div>
-      </div>
-      <img
-        alt=""
-        src={require(`../assets/images/icon/${getImages(
-          props.schedule.category,
-          props.schedule.event_name
-        )}`)}
-        className="schedule-img d-none d-sm-block"
-      />
-      <div className="schedule-desc p-2">
-        <Container className="p-0">
-          <div className="d-sm-flex d-block justify-content-between">
-            <div className="schedule-show">
-              {props.schedule ? props.schedule.event_name : ""}
+    <>
+      {!props.thumbnail && (
+        <div className="d-flex schedule-tile my-2">
+          <div className="schedule-tile-date py-2">
+            <div style={{ fontSize: "40px", lineHeight: 1.1, fontWeight: 400 }}>
+              {props.schedule.date.substr(-2)}
             </div>
-            <div className={size.width <= 576 ? "text-start my-2" : "text-end"}>
-              <Badge
-                pill
-                className="fn-badge-schedule"
-                bg=""
-                style={{
-                  backgroundColor: getCategoryBadgeColor(
-                    props.schedule.category
-                  ),
-                }}
-              >
-                {props.schedule ? props.schedule.category : ""}
-              </Badge>
+            <div
+              style={{ fontSize: "20px", fontWeight: 600, marginTop: "-5px" }}
+            >
+              {t(`month.${props.schedule.date.substr(5, 2)}`)}
             </div>
           </div>
-          <Row>
-            <Col className="schedule-loc">
-              {props.schedule ? props.schedule.location : ""}
-            </Col>
-          </Row>
-          <Row className="mt-1">
-            <Col className="schedule-time">
-              <FontAwesomeIcon icon={faClockFour} /> &nbsp;
+          <img
+            alt=""
+            src={require(`../assets/images/icon/${getImages(
+              props.schedule.category,
+              props.schedule.event_name
+            )}`)}
+            className="schedule-img d-none d-sm-block"
+          />
+          <div className="schedule-desc p-2">
+            <Container className="p-0">
+              <div className="d-sm-flex d-block justify-content-between">
+                <div className="schedule-show">
+                  {props.schedule ? props.schedule.event_name : ""}
+                </div>
+                <div
+                  className={size.width <= 576 ? "text-start my-2" : "text-end"}
+                >
+                  <Badge
+                    pill
+                    className="fn-badge-schedule"
+                    bg=""
+                    style={{
+                      backgroundColor: getCategoryBadgeColor(
+                        props.schedule.category
+                      ),
+                    }}
+                  >
+                    {props.schedule ? props.schedule.category : ""}
+                  </Badge>
+                </div>
+              </div>
+              <Row>
+                <Col className="schedule-loc">
+                  {props.schedule ? props.schedule.location : ""}
+                </Col>
+              </Row>
+              <Row className="mt-1">
+                <Col className="schedule-time">
+                  <FontAwesomeIcon icon={faClockFour} /> &nbsp;
+                  {props.schedule ? props.schedule.time : ""}
+                </Col>
+                <Col className="schedule-more align-self-end">
+                  <a
+                    href={props.schedule ? props.schedule.url : "#"}
+                    target="_blank"
+                  >
+                    {t("full_info")}
+                  </a>
+                </Col>
+              </Row>
+            </Container>
+          </div>
+        </div>
+      )}
+      {props.thumbnail && (
+        <div className="fn-sch-thumbnail-wrapper">
+          <div className="fn-sch-thumbnail">
+            <img
+              alt=""
+              src={require(`../assets/images/icon/${getImages(
+                props.schedule.category,
+                props.schedule.event_name
+              )}`)}
+              className="schedule-img-thumbnail"
+            />
+            <div className="fn-sch-thumbnail-time py-1 px-2">
               {props.schedule ? props.schedule.time : ""}
-            </Col>
-            <Col className="schedule-more align-self-end">
-              <a
-                href={props.schedule ? props.schedule.url : "#"}
-                target="_blank"
-              >
-                {t("full_info")}
-              </a>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-    </div>
+            </div>
+            <Badge
+              pill
+              className="fn-badge-schedule fn-badge-thumbnail m-2"
+              bg=""
+              style={{
+                backgroundColor: getCategoryBadgeColor(props.schedule.category),
+              }}
+            >
+              {props.schedule ? props.schedule.category : ""}
+            </Badge>
+          </div>
+          <div className="fn-sch-thumbnail-footer p-2 schedule-desc">
+            <div className="schedule-show mb-1">
+              {props.schedule ? props.schedule.event_name : ""}
+            </div>
+            <div className="schedule-loc mb-2">
+              {props.schedule ? props.schedule.location : ""}
+            </div>
+            <div>
+              <Row className="mt-0">
+                <Col className="schedule-time mt-1">
+                  <FontAwesomeIcon icon={faClockFour} /> &nbsp;
+                  {props.schedule ? props.schedule.time : ""}
+                </Col>
+                <Col className="schedule-more align-self-end">
+                  <a
+                    href={props.schedule ? props.schedule.url : "#"}
+                    target="_blank"
+                  >
+                    {t("full_info")}
+                  </a>
+                </Col>
+              </Row>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
   );
 };
 

@@ -70,14 +70,19 @@ const NavBar = () => {
 
   const isAutoScrolled = () => {
     const pathNames = [
-      "/",
       "/galeri-freya",
       "/galeri-freyanation",
+      "/detail-galery",
       "/profil",
       "/freyanation",
       "/jadwal",
     ];
-    return !pathNames.includes(window.location.pathname);
+    const notScrolledUrl = pathNames.some(
+      (path) =>
+        window.location.pathname.startsWith(path) ||
+        window.location.pathname == "/"
+    );
+    return !notScrolledUrl;
   };
 
   const menus = [

@@ -513,6 +513,9 @@
     position: absolute;
     top: 25px;
     left: 25px;
+}
+
+.fn-article-category.badge {
     font-family: Poppins-Regular;
     font-weight: 500;
     border-radius: 4px;
@@ -613,6 +616,7 @@
 
 .fn-gallery-background {
     background-image: url(../images/pic/gallery-freya-bg.webp);
+    background-position: top;
 }
 
 .fn-overlay-black {
@@ -666,4 +670,200 @@
 .fn-content-text {
     font-family: Poppins;
     font-size: 16px;
+}
+
+.fn-biodata-panel {
+    background-color: rgba(245, 173, 203, 0.15);
+    border: solid 1px #DADADA;
+}
+
+.fn-biodata-image {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.fn-biodata-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.fn-biodata-title {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.fn-biodata-detail {
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+.fn-schedule-background {
+    background-image: url(../images/pic/schedule-page-bg.webp);
+}
+
+.fn-schedule-subheader {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.profile-desc {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.profile-desc b {
+    font-weight: 600;
+}
+
+.fn-freyanation-background {
+    background-image: url(../images/pic/freyanation-bg.webp);
+    background-position: top;
+}
+
+.fn-sch-thumbnail {
+    position: relative;
+    width: 300px;
+    height: 225px;
+    overflow: hidden;
+}
+
+.fn-sch-thumbnail .schedule-img-thumbnail {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.fn-sch-thumbnail:hover img {
+    transform: scale(1.05);
+}
+
+.fn-sch-thumbnail-time {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #F5ADCB;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.fn-badge-thumbnail {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.fn-sch-thumbnail-wrapper {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.fn-gallery-thumbnail {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.fn-gallery-image-title {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.fn-gallery-thumbnail:hover img {
+    transform: scale(1.05);
+}
+
+.fn-gallery-image-panel {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.50);
+    color: white;
+}
+
+.fn-gip-title {
+    font-family: Lato-Regular;
+    font-size: 23px;
+}
+
+.fn-gip-subtitle {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: -2px;
+}
+
+.fn-art-main-hl {
+    position: relative;
+    height: 600px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.fn-art-title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+.fn-art-main-hl .fn-art-main-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+
+.fn-art-main-hl:hover .fn-art-main-img img {
+    transform: scale(1.04);
+}
+
+.fn-art-main-hl:hover .fn-txt-selengkapnya {
+    opacity: 1;
+}
+
+.fn-art-main-img {
+    width: 100%;
+    height: 100%;
+}
+
+.fn-art-hl-title-text {
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.25;
+}
+
+.fn-art-hl-date-text {
+    font-family: Poppins-Regular;
+    font-size: 16px;
+}
+
+.fn-txt-selengkapnya {
+    font-family: Poppins-Regular;
+    font-size: 18px;
+    text-decoration: underline;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.2s ease;
+}
+
+.fn-side-title {
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: 600;
 }
